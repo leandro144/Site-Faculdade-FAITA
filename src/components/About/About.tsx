@@ -11,7 +11,7 @@ const About = () => {
                 <div className="grid">
                     <div className="left">
                         <h1>Sobre Nós</h1>
-                        <p>A FAITA é localizada na região do Litoral Sul do Estado de São Paulo, abrangendo os municípios de Praia Grande, Mongaguá, Itanhaém, Peruíbe, Itariri e Pedro de Toledo.
+                        <p>A FAITA atua 25 anos na área da educação, localizada na região do Litoral Sul do Estado de São Paulo, abrangendo os municípios de Praia Grande, Mongaguá, Itanhaém, Peruíbe, Itariri e Pedro de Toledo.
                           A Faculdade oferece cursos superiores em Adminstração, Logística e Pedagogia.
                           Cursos de Pós-Graduação nas Áreas: Educação, Saúde, Administração e Logística.</p>
                     </div>

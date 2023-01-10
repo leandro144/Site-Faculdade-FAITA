@@ -7,8 +7,8 @@ return (
 <>
     <div className="contact_back" id='contact'>
         <h1>Contato</h1>
-        <p>Entre em contato, disponibilizamos a melhor expiriência! <br></br> A Faculdade faita oferece para vocês
-            a cursos livres além da sua graduação, consulte já!</p>
+        <p>Entre em contato, para maiores informações <br></br> A Faculdade faita oferece para vocês
+            a cursos livres e pós graduação além da sua graduação, consulte já!</p>
         <div className="grid_color">
             <div className="left">
                 <div className="flex">

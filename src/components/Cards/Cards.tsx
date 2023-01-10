@@ -10,7 +10,7 @@ const Cards = () => {
           <article className='card'>
             <div className="card_container"></div>
             <h4>Pedagogia</h4>
-              <p>O curso de Pedagogia são voltadas para o estudo da educação e dos processos de aprendizagem. O curso é bastante teórico e aborda temas como a capacidade de crianças e adolescentes aprenderem.</p>
+              <p>O curso de Pedagogia é voltado para a área da educação com ênfase nos processos de aprendizagem. O curso é bastante teórico e aborda temas como a capacidade de crianças e adolescentes aprenderem.</p>
               <div className="btn_stars">
                 <button className="btn">Inscreva-se</button>
                 <span className="star">
@@ -25,7 +25,7 @@ const Cards = () => {
           <article className='card'>
             <div className="card_container"></div>
             <h4>Administração</h4>
-              <p>O curso de Administração também costuma ser um excelente caminho para aqueles que sonham em ter o próprio negócio</p>
+              <p>O curso de Administração constrói um excelente caminho para aqueles que sonham em ter o próprio negócio</p>
               <div className="btn_stars">
                 <button className="btn">Inscreva-se</button>
                 <span className="star">
@@ -40,7 +40,7 @@ const Cards = () => {
           <article className='card'>
             <div className="card_container"></div>
             <h4>Logistica</h4>
-              <p>O curso de Logística capacita projetar e implementar sistemas de transporte, armazenamento, distribuição e entrega.</p>
+              <p>O curso de Logística capacita profissionais para valiar, implementar sistemas de transporte, armazenamento, distribuição e entrega.</p>
               <div className="btn_stars">
                 <button className="btn">Inscreva-se</button>
                 <span className="star">
