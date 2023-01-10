@@ -21,12 +21,12 @@
 
 .grid_color {
     width: 100%;
+    max-width: 1050px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 6rem;
     height: 100%;
-    max-width: 1050px;
     background-color: #106aa0;
     margin: 0 auto;
     padding: 1.5rem;
@@ -134,10 +134,13 @@ legend{
 .right_contact img {
     margin: 0 auto;
     display: flex;
-    width: 500px !important;
-    height: 300px;
+    width: 100% !important;
+    height: 250px;
 }
 
+.grid_color .left {
+    width: 100%;
+}
 
 @media screen and (max-width: 800px){
     .grid_color {
@@ -150,5 +153,12 @@ legend{
         justify-content: center;
         flex-direction: column;
         gap: 4rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .grid_color .left {
+        width: 80%;
+        margin: 0 auto;
     }
 }
