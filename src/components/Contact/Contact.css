@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+.contact_back {
+    width: 100%; 
+    background-color: #f9f9f9;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact_back h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.contact_back p {
+    font-weight: .825rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.grid_color {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 6rem;
+    height: 100%;
+    max-width: 1050px;
+    background-color: #106aa0;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    background-color: #fff;
+}
+
+fieldset{
+    border: 3px solid dodgerblue;
+    padding: 1rem;
+}
+
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #106aa0;
+    outline: none;
+    color: #000;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.textArea {
+    background-color: #106aa0;
+    color: #fff;
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.labelArea {
+    color: #fff;
+    top: 10px;
+    padding-left: 5px;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+
+.right_contact {
+    margin: 0 auto;
+}
+
+.right_contact h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 4rem;
+    color: #fff;
+}
+
+.right_contact p {
+    color: #fff;
+}
+
+.right_contact img {
+    margin: 0 auto;
+    display: flex;
+    width: 500px !important;
+    height: 300px;
+}
+
+
+@media screen and (max-width: 800px){
+    .grid_color {
+        grid-template-columns: 1fr;
+    }
+
+    .grid {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+    }
+}

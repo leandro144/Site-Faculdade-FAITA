@@ -1,0 +1,48 @@
+.about_back {
+    width: 100%; 
+    background-color: #f9f9f9;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 7.5rem;
+    height: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+.left h1 {
+   color: #636466;
+   padding-bottom: 1rem;
+}
+
+.left p {
+    color: #636466;
+    font-size: 1rem;
+    max-width: 500px;
+    line-height: 1.50rem;
+    text-align: justify;
+}
+
+.right img{
+    width: 400px !important;
+    border-radius: 8px;
+    box-shadow: rgba(20, 98, 255, 0.4) 5px 5px, rgba(30, 48, 240, 0.3) 10px 10px, rgba(30, 48, 240, 0.2) 15px 15px, rgba(30, 48, 240, 0.1) 20px 20px;
+}
+
+@media screen and (max-width: 800px){
+    .grid {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+    }
+}

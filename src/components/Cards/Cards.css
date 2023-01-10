@@ -1,0 +1,80 @@
+.content {
+    background-color: #106aa0;
+}
+
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 1rem;
+}
+
+.card {
+    width: 350px;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.card_container {
+    background-image: url('../assets/diploma.png');
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    border-radius: 5px;
+}
+
+article h4 {
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+article p {
+    padding-top: 1rem;
+    font-size: .825rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+}
+
+article .btn {
+    margin-top: 1rem;
+    padding: .625rem 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #106aa0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card_container img{
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.btn_stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star {
+    background-color: #fff;
+    color: #106aa0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px){
+   
+.container {
+    flex-direction: column;
+}
+}

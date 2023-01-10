@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+
+#graduation {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.disclosure {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    padding-left: 2rem;
+    gap: 1rem;
+}
+
+ul li i {
+    color: #fff;
+    font-size: 1.50rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 710px) {
+    .icons__link {
+        display: none;
+    }
+}
