@@ -1,7 +1,6 @@
 import React from 'react'
-import { Button, Content } from '../styled'
 import './Cards.css'
-import { RiStarSLine } from 'react-icons/Ri';
+import { RiStarSLine } from 'react-icons/ri';
 
 const Cards = () => {
   return (
