@@ -155,10 +155,3 @@ legend{
         gap: 4rem;
     }
 }
-
-@media screen and (max-width: 560px) {
-    .grid_color .left {
-        width: 80%;
-        margin: 0 auto;
-    }
-}
