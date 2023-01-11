@@ -40,7 +40,7 @@ const Cards = () => {
           <article className='card'>
             <div className="card_container"></div>
             <h4>Logistica</h4>
-              <p>O curso de Logística capacita profissionais para valiar, implementar sistemas de transporte, armazenamento, distribuição e entrega.</p>
+              <p>O curso de Logística capacita profissionais para avaliar, projetar e implementar sistemas de transporte, armazenamento distribuição e entrega de produtos de uma empresa ou instituição.</p>
               <div className="btn_stars">
                 <button className="btn">Inscreva-se</button>
                 <span className="star">
