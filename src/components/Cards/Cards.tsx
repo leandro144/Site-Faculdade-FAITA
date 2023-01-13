@@ -10,7 +10,7 @@ const Cards = () => {
           <article className='card'>
             <div className="card_container"></div>
             <h4>Pedagogia</h4>
-              <p>O curso de Pedagogia é voltado para a área da educação com ênfase nos processos de aprendizagem. O curso é bastante teórico e aborda temas como a capacidade de crianças e adolescentes aprenderem.</p>
+              <p>O curso de Pedagogia é voltado para a área da educação com ênfase nos processos de aprendizagem.</p>
               <div className="btn_stars">
                 <button className="btn">Inscreva-se</button>
                 <span className="star">

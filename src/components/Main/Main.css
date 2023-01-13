@@ -30,3 +30,11 @@ span {
     width: 200px;
     height: 70px;
 }
+
+#wp-icon {
+    position: fixed;
+    width: 68px;
+    height: 68px;
+    bottom: 25px;
+    right: 25px;
+}

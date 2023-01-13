@@ -18,7 +18,7 @@ const Courses = () => {
             </div>
             <div className="text">
               <h2>Pedagogia</h2>
-              <p>Com o setor da Educação em constante expansão, e com a evolução da tecnoliga, surgiu a necessidade de mobilizar profissionais para atuarem na área, além das salas de aula!</p>
+              <p>Com o setor da Educação em constante expansão e com a evolução da tecnologia, surgiu a necessidade de mobilizar profissionais para atuarem além das salas de aula!</p>
             </div>
           </div>
           <div className="courses__content">

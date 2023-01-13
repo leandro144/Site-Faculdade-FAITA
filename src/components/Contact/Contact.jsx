@@ -7,8 +7,8 @@ return (
 <>
     <div className="contact_back" id='contact'>
         <h1>Contato</h1>
-        <p>Entre em contato, para maiores informações<b> Whatsapp (13) 97420-0501 || Fone: (13) 3426-5040</b> <br></br> A Faculdade faita oferece também
-            Pós Graduação e Cursos Livros, Consulte já!</p>
+        <p>Entre em contato, para maiores informações<b> Whatsapp (13) 97420-0501 || Fone: (13) 3426-5040</b> <br></br> A Faculdade Faita oferece também
+            Pós Graduação e Cursos Livres, Consulte já!</p>
         <div className="grid_color">
             <div className="left">
                 <div className="flex">
@@ -22,7 +22,7 @@ return (
                         <br /><br />
                         <div className="inputBox">
                             <input type="text" name="email" id="email" className="inputUser" required />
-                            <label for="email" className="labelInput">Email</label>
+                            <label for="email" className="labelInput">O Email</label>
                         </div>
                         <br /><br />
                         <div className="inputBox">
