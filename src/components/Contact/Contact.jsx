@@ -42,7 +42,7 @@ return (
             <div className="right_contact">
                 <h1>Faita</h1>
                 <p>@faita.edu.br</p>
-                <p>Preencha todo o formulário, e em breve entraremos em contato, seja Faita também!</p>
+                <p>Preencha todo o formulário e em breve entraremos em contato, seja Faita também!</p>
                 <img src={logo} alt="logo" />
             </div>
         </div>
