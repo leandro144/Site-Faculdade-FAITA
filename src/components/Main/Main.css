@@ -1,3 +1,5 @@
+
+
 .center {
     width: 100%;
     max-width: 1050px;
@@ -33,10 +35,10 @@ span {
 
 #wp-icon {
     position: fixed;
-    width: 68px;
-    height: 68px;
+    width: 50px;
+    height: 50px;
     bottom: 25px;
-    right: 25px;
+    left: 15px;
 }
 
 @media screen and (max-width: 450px) {
