@@ -2,15 +2,40 @@ import React from 'react'
 import './SubNavbar.css'
 import {Container, Nav, Navbar} from '../styled'
 import { BsWhatsapp, BsInstagram, BsFacebook, BsTwitter} from 'react-icons/bs';
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 const SubNavbar = () => {
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
 return (
 <Container>
   <Navbar>
     <Nav>
       <div className="center">
-        <div id="graduation">Acessibilidade</div>
+        <Button className='graduation' onClick={handleShow}>
+        Acessibilidade
+      </Button>
+
+      <Modal show={show} onHide={handleClose} animation={false}>
+        <Modal.Header closeButton>
+          <Modal.Title>Acessibilidade</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Sendo criando...!</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Fechar
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Salvar
+          </Button>
+        </Modal.Footer>
+      </Modal>
         <div className="disclosure">Graduação FAITA - Inscreva-se já!</div>
         <ul className='icons__link'>
           <li><a href="https://wa.me/5513974200501?text=Ol%C3%A1%2C+fiquei+interessado+na+faculdade."><i>

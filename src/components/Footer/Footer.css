@@ -1,8 +1,13 @@
 .footer {
     background-color: #106AA0;
     padding: 1rem;
+    color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer__text {
+    margin-top: 15px;
 }

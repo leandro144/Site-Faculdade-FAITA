@@ -6,7 +6,7 @@ import Contact from './components/Contact/Contact'
 import Courses from './components/Courses/Courses'
 import Footer from './components/Footer/Footer'
 import Main from './components/Main/Main'
-import Navbar from './components/Navbar/Navbar'
+import Navbars from './components/Navbar/Navbars'
 import SubNavbar from './components/SubNavbar/SubNavbar'
 
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <SubNavbar/>
-      <Navbar />
+      <Navbars />
       <Main />
       <About />
       <Cards />

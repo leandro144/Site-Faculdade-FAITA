@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
 
-#graduation {
+.graduation {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 800;
@@ -8,6 +8,7 @@
     border: 1px solid #fff;
     padding: 5px;
     border-radius: 5px;
+    background-color: #202377;
 }
 
 .center {

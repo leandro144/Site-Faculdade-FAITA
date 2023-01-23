@@ -2,10 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: .425rem;
 }
 
 .toggle__desktop {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
@@ -13,10 +15,21 @@ li {
     list-style: none;
 }
 
+ul {
+    margin-bottom: 0;
+}
+
 a{
-    font-size: 1.10rem;
+    font-size: 1.30rem;
     text-decoration: none;
-    color: #636466;
+    color: #000;
+    font-weight: bold;
+}
+
+.idem {
+    font-size: 1.30rem;
+    text-decoration: none;
+    color: #000;
     font-weight: bold;
 }
 
@@ -53,12 +66,12 @@ a{
 
     ul.sidebar.d__flex {
         flex-wrap: wrap;
-        height: 20%;
+        height: 50%;
         position: fixed;
         right: 0%;
         background: #202377;
         width: 40vw;
-        top: 100px;
+        top: 120px;
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -67,6 +80,10 @@ a{
     ul.sidebar.d__flex li a {
         color: #fff;
         font-size: 1.2rem;
+    }
+
+    .idem {
+        color: #fff;
     }
 
     .toggle__desktop {
