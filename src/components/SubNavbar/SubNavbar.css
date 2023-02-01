@@ -36,6 +36,13 @@ ul li i {
     cursor: pointer;
 }
 
+#darkTheme {
+    padding: 0 1rem;
+    background-color: #fff;
+    color: #202377;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 710px) {
     .icons__link {
         display: none;

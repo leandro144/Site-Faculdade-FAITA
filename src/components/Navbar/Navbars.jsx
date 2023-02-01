@@ -20,12 +20,13 @@ return (
         <li><a href="#About">Sobre</a></li>
         <li><a href="https://faculdadefaita.com.br/sessao-2?tutors=0&courses=0">Cursos</a></li>
         <NavDropdown className='idem' title="Graduação" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Presencial</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="#contact">Presencial</NavDropdown.Item>
+              <NavDropdown.Item href="#contact">
                 EAD
               </NavDropdown.Item>
             </NavDropdown>
         <li><a href="#contact">Contato</a></li>
+        <li><a href="https://faculdadefaita.com.br/sys">Acesso</a></li>
       </ul>
       {/* MENU MOBILE */}
       <div className="toggle__menu">
@@ -44,6 +45,7 @@ return (
               </NavDropdown.Item>
             </NavDropdown>
           <li><a href="#contact">Contato</a></li>
+          <li><a href="https://faculdadefaita.com.br/sys">Acesso</a></li>
         </ul>
       </div> ) : null}
     </div>
