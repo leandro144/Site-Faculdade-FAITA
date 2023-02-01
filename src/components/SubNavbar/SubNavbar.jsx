@@ -1,34 +1,28 @@
 import React from 'react'
 import './SubNavbar.css'
 import {Container, Nav, Navbar} from '../styled'
-import { BsWhatsapp, BsInstagram, BsFacebook, BsTwitter} from 'react-icons/bs';
-import { useState } from 'react';
+import { BsWhatsapp, BsInstagram, BsFacebook, BsTwitter, BsFillSunFill, BsFillMoonStarsFill} from 'react-icons/bs';
+import { useState } from "react";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+
 
 const SubNavbar = () => {
 
 const [show, setShow] = useState(false);
-const [darkTheme, setDarkTheme] = useState(false);
 
 const handleClose = () => setShow(false);
 const handleShow = () => setShow(true);
 
-const handleDarkTheme = () => {
-  if(darkTheme == false){
-    
-  }
-}
+const [darkMode, setDarkMode] = useState(false);
+
 
 return (
 <Container>
-  <Navbar>
+  <Navbar className={darkMode ? "dark-mode" : "light-mode" }>
     <Nav>
       <div className="center">
-        <Button 
-        className='graduation' 
-        onClick={handleShow}
-        >
+        <Button className='graduation' onClick={handleShow}>
           Acessibilidade
         </Button>
 
@@ -37,14 +31,18 @@ return (
             <Modal.Title>Acessibilidade</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <button 
-              id='darkTheme'
-              onClick={handleDarkTheme}
-              value={darkTheme}
-              onChange={((e) => setDarkTheme(e.target.value))}
-              >
-              DarkMode
-            </button>
+            <div className={darkMode ? "dark-mode" : "light-mode" }>
+              <div className="container">
+                <div className="switch-checkbox">
+                  <label className="switch">
+                    <input type="checkbox" onChange={()=> setDarkMode(!darkMode)} />
+                    <span className="slider round"> </span>
+                  </label>
+                </div>
+              </div>
+              <div>
+              </div>
+            </div>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
