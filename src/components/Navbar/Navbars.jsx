@@ -16,7 +16,7 @@ return (
     <div className="center">
       <div className="logo"><img src={logo} alt="" /></div>
       <ul className='toggle__desktop'>
-        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Início</a></li>
         <li><a href="#About">Sobre</a></li>
         <li><a href="https://faculdadefaita.com.br/sessao-2?tutors=0&courses=0">Cursos</a></li>
         <NavDropdown className='idem' title="Graduação" id="basic-nav-dropdown">
@@ -26,7 +26,7 @@ return (
               </NavDropdown.Item>
             </NavDropdown>
         <li><a href="#contact">Contato</a></li>
-        <li><a href="https://faculdadefaita.com.br/sys">Acesso</a></li>
+        <li><a href="https://faculdadefaita.com.br/sys">Acesso ao Portal</a></li>
       </ul>
       {/* MENU MOBILE */}
       <div className="toggle__menu">
@@ -45,7 +45,7 @@ return (
               </NavDropdown.Item>
             </NavDropdown>
           <li><a href="#contact">Contato</a></li>
-          <li><a href="https://faculdadefaita.com.br/sys">Acesso</a></li>
+          <li><a href="https://faculdadefaita.com.br/sys">Acesso ao Portal</a></li>
         </ul>
       </div> ) : null}
     </div>
