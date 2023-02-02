@@ -53,7 +53,7 @@ return (
             </Button>
           </Modal.Footer>
         </Modal>
-        <div className="disclosure">Graduação FAITA - Inscreva-se já!</div>
+        <div className="disclosure"><a href="#contact">Graduação FAITA - Inscreva-se já!</a></div>
         <ul className='icons__link'>
           <li><a href="https://wa.me/5513974200501?text=Ol%C3%A1%2C+fiquei+interessado+na+faculdade."><i>
                 <BsWhatsapp /></i></a></li>

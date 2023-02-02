@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-.disclosure {
+.disclosure a{
     font-family: 'Raleway', sans-serif;
     font-size: 1.25rem;
     font-weight: 800;
