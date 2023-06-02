@@ -1,7 +1,7 @@
 import React from 'react'
 import { Content } from '../styled'
 import './About.css'
-import faita from '../assets/vemprafaita.jpg'
+import faita from '../assets/vemprafaita.jpg';
 
 const About = () => {
 return (

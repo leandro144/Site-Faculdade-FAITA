@@ -7,6 +7,11 @@
     text-align: center;
 }
 
+.align img {
+    width: 216px;
+    height: 324px;
+}
+
 .banner{
     background-image: url('../assets/banner1.png');
     background-repeat: no-repeat;

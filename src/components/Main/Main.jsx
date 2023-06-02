@@ -5,6 +5,7 @@ import  WhatsApp  from '../assets/whatsapp.png';
 import VLibras from '@djpfs/react-vlibras'
 
 const Main = () => {
+
 return (
 <>
   <Content>
@@ -14,9 +15,6 @@ return (
         &text=Olá, gostaria de obter mais informações sobre os cursos">
         <img src={WhatsApp} id="wp-icon" alt="Clique aqui para falar com a gente pelo Whatsapp!" />
       </a>
-      <div className="center">
-
-      </div>
     </div>
   </Content>
 </>
