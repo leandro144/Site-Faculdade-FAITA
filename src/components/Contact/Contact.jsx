@@ -9,7 +9,7 @@ return (
         <h1>Contato</h1>
         <p>Entre em contato, para maiores informações<b> Whatsapp (13) 97420-0501 || Fone: (13) 3426-5040</b> <br></br>
             A Faculdade Faita oferece também
-            Pós Graduação e Cursos Livres, Consulte já!</p>
+            Pós Graduação e Cursos Livres, Consulte já!!</p>
         <div className="grid_color">
             <div className="left">
                 <div className="flex">
