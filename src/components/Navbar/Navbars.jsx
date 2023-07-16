@@ -25,6 +25,12 @@ return (
                 EAD
               </NavDropdown.Item>
             </NavDropdown>
+            <NavDropdown className='idem' title="Biblioteca" id="basic-nav-dropdown">
+              <NavDropdown.Item href="https://sso.saraivaeducacao.com.br/login">Biblioteca Saraiva</NavDropdown.Item>
+              <NavDropdown.Item href="https://plataforma.bvirtual.com.br/Account/Login?redirectUrl=%2F">
+                Biblioteca Person
+              </NavDropdown.Item>
+            </NavDropdown>
         <li><a href="#contact">Contato</a></li>
         <li><a href="https://faculdadefaita.com.br/sys">Acesso ao Portal</a></li>
       </ul>
