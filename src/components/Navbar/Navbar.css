@@ -23,7 +23,7 @@ a{
     font-size: 1.20rem;
     text-decoration: none;
     color: rgb(71, 71, 71);
-    font-weight: bold;
+    font-weight: 400;
 }
 
 a:hover {
@@ -34,7 +34,7 @@ a:hover {
     font-size: 1.20rem;
     text-decoration: none;
     color: rgb(71, 71, 71);
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .logo img {
