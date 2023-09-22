@@ -10,6 +10,7 @@ const Navbars = () => {
 
 const [show, setShow] = useState(false);
 
+
 return (
 <Container>
   <Nav>
@@ -26,9 +27,12 @@ return (
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown className='idem' title="Biblioteca" id="basic-nav-dropdown">
-              <NavDropdown.Item href="https://sso.saraivaeducacao.com.br/login">Biblioteca Saraiva</NavDropdown.Item>
-              <NavDropdown.Item href="https://plataforma.bvirtual.com.br/Account/Login?redirectUrl=%2F">
-                Biblioteca Person
+              <NavDropdown.Item href='https://sso.saraivaeducacao.com.br/login'>Saraiva</NavDropdown.Item>
+              <NavDropdown.Item href="https://bdsolucto.librarika.com/search/catalogs">
+                Solucto
+              </NavDropdown.Item>
+              <NavDropdown.Item href="https://bibliogratuita.curatoriaeditora.com.br/">
+                Curatoria
               </NavDropdown.Item>
             </NavDropdown>
         <li><a href="#contact">Contato</a></li>
