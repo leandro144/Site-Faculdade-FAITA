@@ -18,6 +18,7 @@ return (
       <ul className='toggle__desktop'>
         <li><a href="#">Início</a></li>
         <li><a href="#About">Sobre</a></li>
+        <li><a href="/mural">Mural</a></li>
         <li><a href="https://faculdadefaita.com.br/sessao-2?tutors=0&courses=0">Cursos</a></li>
         <NavDropdown className='idem' title="Graduação" id="basic-nav-dropdown">
               <NavDropdown.Item href="#contact">Presencial</NavDropdown.Item>

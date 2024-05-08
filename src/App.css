@@ -4,3 +4,45 @@
  box-sizing: border-box;
  font-family: 'roboto';
 }
+
+.mural {
+    width: 100%;
+    height: 100%;
+    background-color: #00B0EF;
+    padding: .625rem 0;
+    text-align: center;
+    color: #fff;
+}
+
+.mural h2 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.mural-img {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.mural-img img {
+    width: 30%;
+    height: 70vh;
+}
+
+@media screen and (max-width: 756px) {
+    .mural-img {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 8%;
+    }
+
+    .mural-img img {
+        width: 100%;
+    }
+}
