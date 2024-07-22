@@ -12,7 +12,7 @@ const Cards = () => {
             <h4>Pedagogia</h4>
               <p>O curso de Pedagogia é voltado para a área da educação com ênfase nos processos de aprendizagem.</p>
               <div className="btn_stars">
-                <button className="btn">Inscreva-se</button>
+                <a href='#contact' className="btn">Inscreva-se </a>
                 <span className="star">
                   <RiStarSLine/>
                   <RiStarSLine/>
@@ -27,7 +27,7 @@ const Cards = () => {
             <h4>Administração</h4>
               <p>O curso de Administração constrói um excelente caminho para aqueles que sonham em ter o próprio negócio</p>
               <div className="btn_stars">
-                <button className="btn">Inscreva-se</button>
+                <a href='#contact' className="btn">Inscreva-se</a>
                 <span className="star">
                   <RiStarSLine/>
                   <RiStarSLine/>
@@ -42,7 +42,7 @@ const Cards = () => {
             <h4>Logistica</h4>
               <p>O curso de Logística capacita profissionais para avaliar, projetar e implementar sistemas de transporte, armazenamento distribuição e entrega de produtos de uma empresa ou instituição.</p>
               <div className="btn_stars">
-                <button className="btn">Inscreva-se</button>
+                <a href='#contact' className="btn">Inscreva-se</a>
                 <span className="star">
                   <RiStarSLine/>
                   <RiStarSLine/>
